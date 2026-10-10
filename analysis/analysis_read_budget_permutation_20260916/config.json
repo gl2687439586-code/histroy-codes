@@ -1,0 +1,23 @@
+{
+  "analysis_id": "read_budget_cross_dataset_permutation_20260916",
+  "seed": 2026,
+  "permutations": 10000,
+  "bootstraps": 10000,
+  "common_budgets": [100, 200, 300, 400, 500, 600],
+  "hard_primary_family": [
+    "hard_hotpot_to_fanout",
+    "hard_fanout_to_hotpot"
+  ],
+  "soft_secondary_family": [
+    "soft_hotpot_to_fanout",
+    "soft_fanout_to_hotpot"
+  ],
+  "soft_temperatures": {
+    "HotpotQA": 0.0025,
+    "FanOutQA": 0.05
+  },
+  "utility_lambdas": [0.0, 0.0025, 0.005, 0.01],
+  "new_model_calls": 0,
+  "new_judge_calls": 0,
+  "new_retriever_calls": 0
+}

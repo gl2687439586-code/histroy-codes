@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "published_scope": "code_and_documentation_only",
+  "source_code_count": 416,
+  "python_count": 337,
+  "shell_count": 79,
+  "included_source_config_template_count": 434,
+  "privacy_transformed_files": 95,
+  "excluded_categories": [
+    "paper drafts",
+    "raw trajectories",
+    "benchmark labels",
+    "result reports",
+    "credentials",
+    "model weights",
+    "indexes",
+    "binary environments"
+  ],
+  "new_experiment_runs": 0,
+  "new_scientific_claims": false,
+  "source_mapping_status_counts": {
+    "partial": 2,
+    "missing": 3,
+    "workflow_located": 19
+  }
+}

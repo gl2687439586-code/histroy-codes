@@ -1,0 +1,18 @@
+Official repository: https://github.com/junhongmit/P-and-B
+Pinned commit inspected: 2ca2d90c6d3d630ec2b11cc22e0f56751f7f2b7e
+Commit date: 2026-03-02T12:54:43-05:00
+
+Reused protocol elements:
+- Planner decomposition followed by difficulty/credit assessment.
+- Difficulty-to-budget levels: 1:200, 2:250, 3:350, 4:450, 5:600.
+- Local weighted allocation using credit multiplied by a positional schedule.
+- Polynomial schedule: (N-i)^2.
+- Cosine schedule: 0.5*(1+cos(pi*i/(N-1)))+0.1.
+- Official inference defaults temperature=0.1 and top_p=0.9.
+- E^3 = A^2/T with T as average decoding tokens.
+
+Explicit adaptation:
+The official paper/repository has no Wikipedia Search action. This package adds the
+user-specified natural Search/Finish loop for HotpotQA while retaining the above
+planner and allocation mechanism.
+

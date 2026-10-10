@@ -54,3 +54,4 @@ python3 tools/verify_repository.py
 - 公开副本只做本机用户名/主机地址等机械替换，未重写预算、prompt、动作约束或评分逻辑。变更及双hash逐文件记录。
 - 文本中的 `/home/researcher`、`C:/Users/RESEARCH_USER` 等是占位路径，不是可直接运行的服务器配置。
 - 不新增全仓库开源许可证；第三方文件遵循其原有许可，作者原创部分的复用授权待仓库所有者决定。
+
